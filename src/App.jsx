@@ -4,11 +4,13 @@ import viteLogo from "/vite.svg";
 import Counter from "./component/useRef/Counter";
 import FocusInput from "./component/useRef/FocusInput";
 import StopWatch from "./component/useRef/StopWatch";
+import ChipsInput from "./component/Learning/ChipsInput";
 
 function App() {
   return (
     <>
-      <StopWatch />
+      <ChipsInput />
+      {/* <StopWatch /> */}
       {/* <Counter /> */}
       {/* <FocusInput /> */}
     </>
