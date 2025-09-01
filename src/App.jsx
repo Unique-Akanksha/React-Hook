@@ -5,11 +5,13 @@ import Counter from "./component/useRef/Counter";
 import FocusInput from "./component/useRef/FocusInput";
 import StopWatch from "./component/useRef/StopWatch";
 import ChipsInput from "./component/Learning/ChipsInput";
+import DarkModeToggle from "./component/Learning/DarkMode";
 
 function App() {
   return (
     <>
-      <ChipsInput />
+      <DarkModeToggle />
+      {/* <ChipsInput /> */}
       {/* <StopWatch /> */}
       {/* <Counter /> */}
       {/* <FocusInput /> */}
